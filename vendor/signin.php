@@ -26,9 +26,4 @@ if (mysqli_num_rows($check_user) > 0) {
 }
 ?>
 
-<pre>
-    <?php
-    print_r($check_user);
-    print_r($user);
-    ?>
-</pre>
+
